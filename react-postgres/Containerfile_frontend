@@ -1,0 +1,15 @@
+FROM docker.io/node
+
+WORKDIR /usr/src/docker-react
+
+COPY package*.json ./
+
+RUN npm install 
+
+COPY . .
+
+RUN ./preprod-deployment.sh
+
+EXPOSE 3000
+
+CMD npm start

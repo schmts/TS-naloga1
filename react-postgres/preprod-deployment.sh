@@ -1,0 +1,1 @@
+bash ./public/env/env.sh ./public/env preprod

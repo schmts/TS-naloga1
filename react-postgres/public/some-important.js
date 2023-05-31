@@ -1,0 +1,1 @@
+const RUNTIME_ENV_KEY = window?._env_?.REACT_APP_RUNTIME_PROD_KEY ? window._env_.REACT_APP_RUNTIME_PROD_KEY : window?._env_?.REACT_APP_RUNTIME_PREPROD_KEY;
